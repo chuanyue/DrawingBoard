@@ -1,5 +1,5 @@
 //
-//  DrawCanvas.swift
+//  CanvasView.swift
 //  DrawingBoard
 //
 //  Created by huxianming on 16/2/9.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DrawCanvas: UIView {
+class CanvasView: UIView {
     
     var path:DrawPath!
     var curP:CGPoint!
@@ -50,8 +50,9 @@ class DrawCanvas: UIView {
             }
             
             //设置画笔颜色
-            path.pathColor = pathColor
-            
+            if pathColor != nil{
+                path.pathColor = pathColor!
+            }
         }
     
         //重绘
@@ -64,7 +65,9 @@ class DrawCanvas: UIView {
         
         if !paths.isEmpty {
             for path in paths{
-                path.pathColor!.set()
+                if path.pathColor != nil{
+                    path.pathColor.set()
+                }
                 path.stroke()
             }
         }

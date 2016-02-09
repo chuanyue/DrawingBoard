@@ -96,7 +96,7 @@
                                     <barButtonItem title="保存" id="GVV-GF-IvD"/>
                                 </items>
                             </toolbar>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Om-nx-fRh" customClass="DrawCanvas" customModule="DrawingBoard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Om-nx-fRh" customClass="CanvasView" customModule="DrawingBoard" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="64" width="375" height="515"/>
                                 <color key="backgroundColor" red="0.94978366010000004" green="1" blue="0.78088388090000005" alpha="1" colorSpace="calibratedRGB"/>
                             </view>

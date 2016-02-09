@@ -11,5 +11,5 @@ import UIKit
 //为UIBezierPath类添加一个pathColor属性
 class DrawPath: UIBezierPath {
     
-    var pathColor:UIColor?
+    var pathColor:UIColor!
 }

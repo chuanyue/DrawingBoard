@@ -13,7 +13,7 @@
 		498E13851C672B2900C69E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498E13831C672B2900C69E04 /* Main.storyboard */; };
 		498E13871C672B2900C69E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498E13861C672B2900C69E04 /* Assets.xcassets */; };
 		498E138A1C672B2900C69E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498E13881C672B2900C69E04 /* LaunchScreen.storyboard */; };
-		49BB47D41C69FEE2001FCBC3 /* DrawCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB47D31C69FEE2001FCBC3 /* DrawCanvas.swift */; };
+		49BB47D41C69FEE2001FCBC3 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB47D31C69FEE2001FCBC3 /* CanvasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		498E13861C672B2900C69E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498E13891C672B2900C69E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		498E138B1C672B2900C69E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49BB47D31C69FEE2001FCBC3 /* DrawCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawCanvas.swift; sourceTree = "<group>"; };
+		49BB47D31C69FEE2001FCBC3 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				498E137F1C672B2900C69E04 /* AppDelegate.swift */,
 				498E13811C672B2900C69E04 /* ViewController.swift */,
-				49BB47D31C69FEE2001FCBC3 /* DrawCanvas.swift */,
+				49BB47D31C69FEE2001FCBC3 /* CanvasView.swift */,
 				498E13831C672B2900C69E04 /* Main.storyboard */,
 				498E13861C672B2900C69E04 /* Assets.xcassets */,
 				498E13881C672B2900C69E04 /* LaunchScreen.storyboard */,
@@ -144,7 +144,7 @@
 				491245F11C6A8E5300BE9DF0 /* DrawPath.swift in Sources */,
 				498E13821C672B2900C69E04 /* ViewController.swift in Sources */,
 				498E13801C672B2900C69E04 /* AppDelegate.swift in Sources */,
-				49BB47D41C69FEE2001FCBC3 /* DrawCanvas.swift in Sources */,
+				49BB47D41C69FEE2001FCBC3 /* CanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
